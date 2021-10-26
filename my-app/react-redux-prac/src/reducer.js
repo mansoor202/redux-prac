@@ -24,6 +24,10 @@ const  reducer = (state=initialState, action) => {
         val2: action.payload.val2,
       })
     }
+    else{
+      return ({
+      ...state
+    })}
   };
 
   export default reducer;
